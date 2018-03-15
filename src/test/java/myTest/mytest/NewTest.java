@@ -11,6 +11,11 @@ public class NewTest {
   public void f() {
 	  Assert.assertEquals("a", "a");
   }
+  
+  @Test
+  public void ff(){
+	  Assert.assertEquals(1, 1);
+  }
   @BeforeMethod
   public void beforeMethod() {
   }
