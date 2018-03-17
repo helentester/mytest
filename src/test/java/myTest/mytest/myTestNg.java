@@ -6,7 +6,7 @@ import org.testng.Assert;
 public class myTestNg {
   @Test
   public void f1() {
-	  Assert.assertEquals("a", "b");
+	  Assert.assertEquals("a", "a");
   }
   
   @Test
