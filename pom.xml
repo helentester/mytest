@@ -51,6 +51,7 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>src/test/java/myTest/mytest/testNG.xml</suiteXmlFile>
 					</suiteXmlFiles>
+					<argLine>-Dfile.encoding=UTF-8</argLine>
 				</configuration>
 			</plugin>
 			<!-- 添加插件,添加ReportNg的监听器，修改最后的TestNg的报告 -->
