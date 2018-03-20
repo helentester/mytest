@@ -51,6 +51,7 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>src/test/java/myTest/mytest/testNG.xml</suiteXmlFile>
 					</suiteXmlFiles>
+					<!-- 加入编码设置，否则生成的报告会中文乱码 -->
 					<argLine>-Dfile.encoding=UTF-8</argLine>
 				</configuration>
 			</plugin>
