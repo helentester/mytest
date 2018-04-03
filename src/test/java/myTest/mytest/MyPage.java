@@ -1,11 +1,15 @@
 package myTest.mytest;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class MyPage {
+public class MyPage extends BasePage{
+	public MyPage(WebDriver driver) {
+		super(driver);
+		// TODO Auto-generated constructor stub
+	}
+
 	@FindBy(id="kw")
 	private WebElement kw_Element;
 	
@@ -13,12 +17,11 @@ public class MyPage {
 	private WebElement su_Element;
 	
 	public void kw_sendkes(String s){
-		kw_Element.clear();
-		kw_Element.sendKeys(s);
+		this.sendkeys(kw_Element, s);
 	}
 	
 	public void su_click() {
-		su_Element.click();
+		this.click(su_Element);
 	}
 	
 }

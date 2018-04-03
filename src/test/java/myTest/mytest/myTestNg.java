@@ -11,12 +11,12 @@ import org.openqa.selenium.support.PageFactory;
 public class myTestNg {
 	private WebDriver driver = new FirefoxDriver();
 
-
 	@Test
-	public void f1() {
+	public void baidu_search() {
 		MyPage myPage = PageFactory.initElements(driver, MyPage.class);
 		driver.get("https://www.baidu.com");
-		myPage.kw_sendkes("helen");
+		driver.manage().window().maximize();//窗口最大化
+		myPage.kw_sendkes("helenMemery");
 		myPage.su_click();
 	}
 
