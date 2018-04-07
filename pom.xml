@@ -20,6 +20,7 @@
 			<version>6.14.2</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- 加入reportNG依赖，代替testNG测试报告 -->
 		<dependency>
 			<groupId>org.uncommons</groupId>
 			<artifactId>reportng</artifactId>
@@ -32,7 +33,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		<!-- 加入selenium做webUI测试 -->
+		<!-- 加入selenium做webUI测试,选用selenium2 -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
@@ -48,7 +49,7 @@
 	</dependencies>
 	<build>
 		<plugins>
-			<!-- 加入maven-surefire-plugin插件用来使用maven执行用例，其中suiteXmlFile配置的是你用例执行文件的地址 -->
+			<!-- 加入maven-surefire-plugin插件用来使用maven执行用例，其中suiteXmlFile配置的就是testNG用例执行文件的地址 -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>

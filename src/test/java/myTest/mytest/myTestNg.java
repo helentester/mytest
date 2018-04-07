@@ -1,3 +1,8 @@
+/**
+ * @author:Helen
+ * @date：2018年4月7日
+ * @Description: 百度搜索测试
+ */
 package myTest.mytest;
 
 import org.testng.annotations.AfterMethod;
@@ -27,7 +32,7 @@ public class myTestNg {
 	
 	@AfterMethod
 	public void close(){
-		driver.close();
+		//driver.close();
 	}
 
 }
