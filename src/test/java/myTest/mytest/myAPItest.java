@@ -27,7 +27,7 @@ public class myAPItest {
 	JSONObject j;
 	String srtResult;
 
-	@Test(priority=1)
+	@Test(priority=1,enabled=false)
 	public void API_post() throws URISyntaxException, ClientProtocolException, IOException {
 		HttpUriRequest login = RequestBuilder.post()
 				.setUri(new URI("http://spring.dev.xsteach.com/api/member/login"))
@@ -40,7 +40,7 @@ public class myAPItest {
 		assertEquals(j.getString("message"), "登录成功");
 	}
 
-	@Test(priority=2)
+	@Test(priority=2,enabled=false)
 	public void API_get() throws ClientProtocolException, IOException {
 		HttpGet httpGet = new HttpGet("http://spring.dev.xsteach.com/api/member/logout");
 		httpResponse = httpCilent.execute(httpGet);
