@@ -7,4 +7,9 @@
 			<class name="myTest.mytest.myTestNg"></class>
 		</classes>
 	</test>
+	<test name="登入登出接口测试">
+		<classes>
+			<class name="myTest.mytest.myAPItest"></class>
+		</classes>
+	</test>
 </suite>
