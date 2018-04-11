@@ -3,11 +3,13 @@
  * @date：2018年4月7日
  * @Description: 百度页面，对象定位和操作，继承BasePage
  */
-package myTest.mytest;
+package myPages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
+import common.BasePage;
 
 public class MyPage extends BasePage{
 	public MyPage(WebDriver driver) {

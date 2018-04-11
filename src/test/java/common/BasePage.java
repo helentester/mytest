@@ -3,7 +3,7 @@
  * @date：2018年4月7日
  * @Description: 处理页面元素公共类，重写页面操作事件，为每个元素加入显式等待
  */
-package myTest.mytest;
+package common;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -20,15 +20,21 @@ public class BasePage {
 	}
 
 	/* 重写senkeys方法 */
-	void sendkeys(WebElement element, String s) {
+	public void sendkeys(WebElement element, String s) {
 		new WebDriverWait(driver, timeOut).until(ExpectedConditions.visibilityOf(element));// 加入显式等待
 		element.clear();// 先清空输入框
 		element.sendKeys(s);// 输入数据
 	}
 
 	/* 重写click方法 */
-	void click(WebElement element) {
+	public void click(WebElement element) {
 		new WebDriverWait(driver, timeOut).until(ExpectedConditions.visibilityOf(element));// 加入显式等待
 		element.click();
+	}
+	
+	/*重写findElement方法*/
+	public WebElement findMyElement(WebElement element) {
+		new WebDriverWait(driver, timeOut).until(ExpectedConditions.visibilityOf(element));
+		return element;
 	}
 }

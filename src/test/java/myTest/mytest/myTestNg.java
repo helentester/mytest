@@ -5,6 +5,8 @@
  */
 package myTest.mytest;
 
+import myPages.MyPage;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import org.testng.Assert;
