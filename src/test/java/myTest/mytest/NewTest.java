@@ -7,7 +7,9 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-
+/**
+ * 描述：testNG结构学习
+ */
 public class NewTest {
   @Test(priority=2)
   public void f() {
