@@ -30,6 +30,7 @@ public class videoTest {
 	  videoPage.click_primaryBTN();
 	  driver.switchTo().defaultContent();//回到主窗口
 	  videoPage.click_closeBTN();
+	  driver.quit();
   }
   
   @Test
@@ -50,5 +51,6 @@ public class videoTest {
       }  
 	  videoPage.click_playerIcon();
 	  Assert.assertTrue(videoPage.getBoolean());
+	  driver.quit();
   }
 }

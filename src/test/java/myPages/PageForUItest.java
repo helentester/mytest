@@ -11,8 +11,8 @@ import org.openqa.selenium.support.FindBy;
 
 import common.BasePage;
 
-public class MyPage extends BasePage{
-	public MyPage(WebDriver driver) {
+public class PageForUItest extends BasePage{
+	public PageForUItest(WebDriver driver) {
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}

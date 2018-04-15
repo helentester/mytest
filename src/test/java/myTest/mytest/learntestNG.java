@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 /**
  * 描述：testNG结构学习
  */
-public class NewTest {
+public class learntestNG {
   @Test(priority=2)
   public void f() {
 	  Assert.assertEquals("a", "a");

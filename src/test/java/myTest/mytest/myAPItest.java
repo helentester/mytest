@@ -19,7 +19,7 @@ import net.sf.json.JSONObject;
 /**
  * @author:Helen
  * @date：2018年4月9日 
- * @Description:HTTP接口测试
+ * @Description:HTTP接口测试，包括get和post方法
  */
 public class myAPItest {
 	CloseableHttpClient httpCilent = HttpClients.createDefault();
