@@ -4,16 +4,12 @@
  */
 package myTest.mytest;
 
-import java.awt.event.ActionEvent;
-
 import myPages.PageForUItest;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import org.testng.Assert;
-import org.testng.Reporter;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 
