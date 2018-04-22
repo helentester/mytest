@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="接口测试">
-	<test name="第一个接口">
+<suite name="testNG学习项目">
+	<test name="UI处理相关事件">
+		<!-- 分组测试 -->
+		<groups>
+			<run>
+				<include name="videoTest"></include>
+				<include name="UITest"></include>
+			</run>
+		</groups>
 		<classes>
-			<class name="myTest.mytest.NewTest"></class>
-			<class name="myTest.mytest.myTestNg"></class>
+			<class name="myTest.mytest.UITest"></class>
+			<class name="myTest.mytest.videoTest"></class>
+		</classes>
+	</test>
+	<test name="接口测试学习">
+		<classes>
+			<class name="myTest.mytest.myAPItest"></class>
+		</classes>
+	</test>
+	<test name="数据库处理事件学习">
+		<classes>
+			<class name="myTest.mytest.mysqlTest"></class>
+		</classes>
+	</test>
+	<test name="testNG结构学习">
+		<classes>
+			<class name="myTest.mytest.learntestNG"></class>
 		</classes>
 	</test>
 </suite>

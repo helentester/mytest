@@ -15,8 +15,9 @@ import org.testng.annotations.Test;
  * @author helen
  * 描述：处理视频播放器
  */
+@Test(groups="videoTest",dependsOnGroups="UITest")
 public class videoTest {
-  @Test(enabled=false)
+  @Test(description="直播测试")
   public void video_() {
 	  //直播区
 	  WebDriver driver = new FirefoxDriver();
@@ -33,7 +34,7 @@ public class videoTest {
 	  driver.quit();
   }
   
-  @Test
+  @Test(description="录播测试")
   public void video_2(){
 	  WebDriver driver = new FirefoxDriver();
 	  driver.get("http://www.xsteach.com/");

@@ -1,68 +1,250 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="TestSuite" time="8.772" errors="0" skipped="0">
+<testsuite tests="10" failures="2" name="TestSuite" time="51.88" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
-    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.5-b02"/>
+    <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
+    <property name="path.separator" value=":"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="F:\gitHub\mytest\mytest\target"/>
-    <property name="java.runtime.version" value="1.8.0_131-b11"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="basedir" value="F:\gitHub\mytest\mytest"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefirebooter8160858223378850428.jar"/>
-    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="user.dir" value="/Users/helentester163com/Documents/workspace/mytest/target"/>
+    <property name="java.runtime.version" value="1.8.0_05-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/helentester163com/Documents/workspace/mytest"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/var/folders/_g/vhkvmngn49x1ldjb3n83l5xr0000gp/T/surefirebooter8886934211888423262.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/_g/vhkvmngn49x1ldjb3n83l5xr0000gp/T/"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 7"/>
-    <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\soft\svn\bin;D:\python27;D:\python27\Scripts;F:\mywamp\php\7.0;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin;D:\adt-bundle-windows-x86_64-20140702\sdk\tools;D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;D:\adt-bundle-windows-x86_64-20140702\sdk\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\HPE\LoadRunner\strawberry-perl\perl\bin;C:\Users\Administrator\AppData\Local\Programs\Fiddler;C:\Users\Administrator\eclipse\committers-oxygen\eclipse;;."/>
-    <property name="surefire.test.class.path" value="F:\gitHub\mytest\mytest\target\test-classes;F:\gitHub\mytest\mytest\target\classes;C:\Users\Administrator\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\Administrator\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Administrator\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Administrator\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;C:\Users\Administrator\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar;C:\Users\Administrator\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.1\selenium-java-2.53.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.1\selenium-chrome-driver-2.53.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.1\selenium-remote-driver-2.53.1.jar;C:\Users\Administrator\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.1\selenium-api-2.53.1.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.1\selenium-edge-driver-2.53.1.jar;C:\Users\Administrator\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.21\htmlunit-driver-2.21.jar;C:\Users\Administrator\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.21\htmlunit-2.21.jar;C:\Users\Administrator\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Administrator\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Administrator\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.17\htmlunit-core-js-2.17.jar;C:\Users\Administrator\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.21\neko-htmlunit-2.21.jar;C:\Users\Administrator\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\Administrator\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Administrator\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.18\cssparser-0.9.18.jar;C:\Users\Administrator\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.2.15.v20160210\websocket-client-9.2.15.v20160210.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\jetty-util\9.2.15.v20160210\jetty-util-9.2.15.v20160210.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\jetty-io\9.2.15.v20160210\jetty-io-9.2.15.v20160210.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.2.15.v20160210\websocket-common-9.2.15.v20160210.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.2.15.v20160210\websocket-api-9.2.15.v20160210.jar;C:\Users\Administrator\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.1\selenium-firefox-driver-2.53.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.1\selenium-ie-driver-2.53.1.jar;C:\Users\Administrator\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\Administrator\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.1\selenium-safari-driver-2.53.1.jar;C:\Users\Administrator\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.1\selenium-support-2.53.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.1\selenium-leg-rc-2.53.1.jar;C:\Users\Administrator\.m2\repository\com\google\inject\guice\3.0\guice-3.0.jar;C:\Users\Administrator\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Administrator\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/helentester163com/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="surefire.test.class.path" value="/Users/helentester163com/Documents/workspace/mytest/target/test-classes:/Users/helentester163com/Documents/workspace/mytest/target/classes:/Users/helentester163com/tools/mave_repository/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.jar:/Users/helentester163com/tools/mave_repository/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar:/Users/helentester163com/tools/mave_repository/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar:/Users/helentester163com/tools/mave_repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/helentester163com/tools/mave_repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar:/Users/helentester163com/tools/mave_repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/helentester163com/tools/mave_repository/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar:/Users/helentester163com/tools/mave_repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/helentester163com/tools/mave_repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/helentester163com/tools/mave_repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/helentester163com/tools/mave_repository/org/testng/testng/6.14.2/testng-6.14.2.jar:/Users/helentester163com/tools/mave_repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/helentester163com/tools/mave_repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/helentester163com/Documents/workspace/mytest/lib/reportng-1.1.6.jar:/Users/helentester163com/tools/mave_repository/velocity/velocity/1.4/velocity-1.4.jar:/Users/helentester163com/tools/mave_repository/velocity/velocity-dep/1.4/velocity-dep-1.4.jar:/Users/helentester163com/tools/mave_repository/org/seleniumhq/selenium/selenium-java/2.53.1/selenium-java-2.53.1.jar:/Users/helentester163com/tools/mave_repository/org/seleniumhq/selenium/selenium-chrome-driver/2.53.1/selenium-chrome-driver-2.53.1.jar:/Users/helentester163com/tools/mave_repository/org/seleniumhq/selenium/selenium-remote-driver/2.53.1/selenium-remote-driver-2.53.1.jar:/Users/helentester163com/tools/mave_repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/helentester163com/tools/mave_repository/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar:/Users/helentester163com/tools/mave_repository/org/seleniumhq/selenium/selenium-api/2.53.1/selenium-api-2.53.1.jar:/Users/helentester163com/tools/mave_repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/helentester163com/tools/mave_repository/org/seleniumhq/selenium/selenium-edge-driver/2.53.1/selenium-edge-driver-2.53.1.jar:/Users/helentester163com/tools/mave_repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/helentester163com/tools/mave_repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/helentester163com/tools/mave_repository/org/seleniumhq/selenium/htmlunit-driver/2.21/htmlunit-driver-2.21.jar:/Users/helentester163com/tools/mave_repository/net/sourceforge/htmlunit/htmlunit/2.21/htmlunit-2.21.jar:/Users/helentester163com/tools/mave_repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/helentester163com/tools/mave_repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/helentester163com/tools/mave_repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/helentester163com/tools/mave_repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/helentester163com/tools/mave_repository/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17.jar:/Users/helentester163com/tools/mave_repository/net/sourceforge/htmlunit/neko-htmlunit/2.21/neko-htmlunit-2.21.jar:/Users/helentester163com/tools/mave_repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/helentester163com/tools/mave_repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/helentester163com/tools/mave_repository/net/sourceforge/cssparser/cssparser/0.9.18/cssparser-0.9.18.jar:/Users/helentester163com/tools/mave_repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/helentester163com/tools/mave_repository/org/eclipse/jetty/websocket/websocket-client/9.2.15.v20160210/websocket-client-9.2.15.v20160210.jar:/Users/helentester163com/tools/mave_repository/org/eclipse/jetty/jetty-util/9.2.15.v20160210/jetty-util-9.2.15.v20160210.jar:/Users/helentester163com/tools/mave_repository/org/eclipse/jetty/jetty-io/9.2.15.v20160210/jetty-io-9.2.15.v20160210.jar:/Users/helentester163com/tools/mave_repository/org/eclipse/jetty/websocket/websocket-common/9.2.15.v20160210/websocket-common-9.2.15.v20160210.jar:/Users/helentester163com/tools/mave_repository/org/eclipse/jetty/websocket/websocket-api/9.2.15.v20160210/websocket-api-9.2.15.v20160210.jar:/Users/helentester163com/tools/mave_repository/org/seleniumhq/selenium/selenium-firefox-driver/2.53.1/selenium-firefox-driver-2.53.1.jar:/Users/helentester163com/tools/mave_repository/org/seleniumhq/selenium/selenium-ie-driver/2.53.1/selenium-ie-driver-2.53.1.jar:/Users/helentester163com/tools/mave_repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/helentester163com/tools/mave_repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/helentester163com/tools/mave_repository/org/seleniumhq/selenium/selenium-safari-driver/2.53.1/selenium-safari-driver-2.53.1.jar:/Users/helentester163com/tools/mave_repository/io/netty/netty/3.5.7.Final/netty-3.5.7.Final.jar:/Users/helentester163com/tools/mave_repository/org/seleniumhq/selenium/selenium-support/2.53.1/selenium-support-2.53.1.jar:/Users/helentester163com/tools/mave_repository/org/seleniumhq/selenium/selenium-leg-rc/2.53.1/selenium-leg-rc-2.53.1.jar:/Users/helentester163com/tools/mave_repository/com/google/inject/guice/3.0/guice-3.0.jar:/Users/helentester163com/tools/mave_repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/helentester163com/tools/mave_repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="6.1"/>
-    <property name="user.home" value="C:\Users\Administrator"/>
-    <property name="user.timezone" value="Asia/Shanghai"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="os.version" value="10.13.2"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/helentester163com"/>
+    <property name="user.timezone" value="Asia/Chongqing"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="user.name" value="Helen"/>
-    <property name="java.class.path" value="F:\gitHub\mytest\mytest\target\test-classes;F:\gitHub\mytest\mytest\target\classes;C:\Users\Administrator\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\Administrator\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Administrator\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Administrator\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;C:\Users\Administrator\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar;C:\Users\Administrator\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.1\selenium-java-2.53.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.1\selenium-chrome-driver-2.53.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.1\selenium-remote-driver-2.53.1.jar;C:\Users\Administrator\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.1\selenium-api-2.53.1.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.1\selenium-edge-driver-2.53.1.jar;C:\Users\Administrator\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.21\htmlunit-driver-2.21.jar;C:\Users\Administrator\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.21\htmlunit-2.21.jar;C:\Users\Administrator\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Administrator\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Administrator\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.17\htmlunit-core-js-2.17.jar;C:\Users\Administrator\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.21\neko-htmlunit-2.21.jar;C:\Users\Administrator\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\Administrator\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Administrator\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.18\cssparser-0.9.18.jar;C:\Users\Administrator\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.2.15.v20160210\websocket-client-9.2.15.v20160210.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\jetty-util\9.2.15.v20160210\jetty-util-9.2.15.v20160210.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\jetty-io\9.2.15.v20160210\jetty-io-9.2.15.v20160210.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.2.15.v20160210\websocket-common-9.2.15.v20160210.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.2.15.v20160210\websocket-api-9.2.15.v20160210.jar;C:\Users\Administrator\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.1\selenium-firefox-driver-2.53.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.1\selenium-ie-driver-2.53.1.jar;C:\Users\Administrator\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\Administrator\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.1\selenium-safari-driver-2.53.1.jar;C:\Users\Administrator\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.1\selenium-support-2.53.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.1\selenium-leg-rc-2.53.1.jar;C:\Users\Administrator\.m2\repository\com\google\inject\guice\3.0\guice-3.0.jar;C:\Users\Administrator\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Administrator\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;"/>
+    <property name="user.name" value="helentester163com"/>
+    <property name="java.class.path" value="/Users/helentester163com/Documents/workspace/mytest/target/test-classes:/Users/helentester163com/Documents/workspace/mytest/target/classes:/Users/helentester163com/tools/mave_repository/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.jar:/Users/helentester163com/tools/mave_repository/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar:/Users/helentester163com/tools/mave_repository/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar:/Users/helentester163com/tools/mave_repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/helentester163com/tools/mave_repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar:/Users/helentester163com/tools/mave_repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/helentester163com/tools/mave_repository/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar:/Users/helentester163com/tools/mave_repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/helentester163com/tools/mave_repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/helentester163com/tools/mave_repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/helentester163com/tools/mave_repository/org/testng/testng/6.14.2/testng-6.14.2.jar:/Users/helentester163com/tools/mave_repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/helentester163com/tools/mave_repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/helentester163com/Documents/workspace/mytest/lib/reportng-1.1.6.jar:/Users/helentester163com/tools/mave_repository/velocity/velocity/1.4/velocity-1.4.jar:/Users/helentester163com/tools/mave_repository/velocity/velocity-dep/1.4/velocity-dep-1.4.jar:/Users/helentester163com/tools/mave_repository/org/seleniumhq/selenium/selenium-java/2.53.1/selenium-java-2.53.1.jar:/Users/helentester163com/tools/mave_repository/org/seleniumhq/selenium/selenium-chrome-driver/2.53.1/selenium-chrome-driver-2.53.1.jar:/Users/helentester163com/tools/mave_repository/org/seleniumhq/selenium/selenium-remote-driver/2.53.1/selenium-remote-driver-2.53.1.jar:/Users/helentester163com/tools/mave_repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/helentester163com/tools/mave_repository/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar:/Users/helentester163com/tools/mave_repository/org/seleniumhq/selenium/selenium-api/2.53.1/selenium-api-2.53.1.jar:/Users/helentester163com/tools/mave_repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/helentester163com/tools/mave_repository/org/seleniumhq/selenium/selenium-edge-driver/2.53.1/selenium-edge-driver-2.53.1.jar:/Users/helentester163com/tools/mave_repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/helentester163com/tools/mave_repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/helentester163com/tools/mave_repository/org/seleniumhq/selenium/htmlunit-driver/2.21/htmlunit-driver-2.21.jar:/Users/helentester163com/tools/mave_repository/net/sourceforge/htmlunit/htmlunit/2.21/htmlunit-2.21.jar:/Users/helentester163com/tools/mave_repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/helentester163com/tools/mave_repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/helentester163com/tools/mave_repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/helentester163com/tools/mave_repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/helentester163com/tools/mave_repository/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17.jar:/Users/helentester163com/tools/mave_repository/net/sourceforge/htmlunit/neko-htmlunit/2.21/neko-htmlunit-2.21.jar:/Users/helentester163com/tools/mave_repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/helentester163com/tools/mave_repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/helentester163com/tools/mave_repository/net/sourceforge/cssparser/cssparser/0.9.18/cssparser-0.9.18.jar:/Users/helentester163com/tools/mave_repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/helentester163com/tools/mave_repository/org/eclipse/jetty/websocket/websocket-client/9.2.15.v20160210/websocket-client-9.2.15.v20160210.jar:/Users/helentester163com/tools/mave_repository/org/eclipse/jetty/jetty-util/9.2.15.v20160210/jetty-util-9.2.15.v20160210.jar:/Users/helentester163com/tools/mave_repository/org/eclipse/jetty/jetty-io/9.2.15.v20160210/jetty-io-9.2.15.v20160210.jar:/Users/helentester163com/tools/mave_repository/org/eclipse/jetty/websocket/websocket-common/9.2.15.v20160210/websocket-common-9.2.15.v20160210.jar:/Users/helentester163com/tools/mave_repository/org/eclipse/jetty/websocket/websocket-api/9.2.15.v20160210/websocket-api-9.2.15.v20160210.jar:/Users/helentester163com/tools/mave_repository/org/seleniumhq/selenium/selenium-firefox-driver/2.53.1/selenium-firefox-driver-2.53.1.jar:/Users/helentester163com/tools/mave_repository/org/seleniumhq/selenium/selenium-ie-driver/2.53.1/selenium-ie-driver-2.53.1.jar:/Users/helentester163com/tools/mave_repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/helentester163com/tools/mave_repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/helentester163com/tools/mave_repository/org/seleniumhq/selenium/selenium-safari-driver/2.53.1/selenium-safari-driver-2.53.1.jar:/Users/helentester163com/tools/mave_repository/io/netty/netty/3.5.7.Final/netty-3.5.7.Final.jar:/Users/helentester163com/tools/mave_repository/org/seleniumhq/selenium/selenium-support/2.53.1/selenium-support-2.53.1.jar:/Users/helentester163com/tools/mave_repository/org/seleniumhq/selenium/selenium-leg-rc/2.53.1/selenium-leg-rc-2.53.1.jar:/Users/helentester163com/tools/mave_repository/com/google/inject/guice/3.0/guice-3.0.jar:/Users/helentester163com/tools/mave_repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/helentester163com/tools/mave_repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
-    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefirebooter8160858223378850428.jar C:\Users\ADMINI~1\AppData\Local\Temp\surefire375026947877880752tmp C:\Users\ADMINI~1\AppData\Local\Temp\surefire8914677571533750517tmp"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="/var/folders/_g/vhkvmngn49x1ldjb3n83l5xr0000gp/T/surefirebooter8886934211888423262.jar /var/folders/_g/vhkvmngn49x1ldjb3n83l5xr0000gp/T/surefire1887095309197388755tmp /var/folders/_g/vhkvmngn49x1ldjb3n83l5xr0000gp/T/surefire3371225061682861823tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="user.language.format" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_131"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="java.version" value="1.8.0_05"/>
+    <property name="java.ext.dirs" value="/Users/helentester163com/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="localRepository" value="C:\Users\Administrator\.m2\repository"/>
-    <property name="file.separator" value="\"/>
+    <property name="localRepository" value="/Users/helentester163com/tools/mave_repository"/>
+    <property name="file.separator" value="/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="myTest.mytest.NewTest" name="f" time="0.003"/>
-  <testcase classname="myTest.mytest.NewTest" name="ff" time="0"/>
-  <testcase classname="myTest.mytest.myTestNg" name="baidu_search" time="2.723"/>
-  <testcase classname="myTest.mytest.myTestNg" name="f2" time="0.001"/>
+  <testcase classname="myTest.mytest.UITest" name="ActionTest" time="1.228"/>
+  <testcase classname="myTest.mytest.UITest" name="baidu_search" time="0.5"/>
+  <testcase classname="myTest.mytest.videoTest" name="video_" time="20.257">
+    <failure message="Timed out after 10 seconds waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.className: player-btn&apos;
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;zhoulindeMacBook-Air.local&apos;, ip: &apos;192.168.31.205&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.2&apos;, java.version: &apos;1.8.0_05&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c58ad0b5-24bc-9f40-bd72-27e74bbbc132" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.className: player-btn&apos;
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;zhoulindeMacBook-Air.local&apos;, ip: &apos;192.168.31.205&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.2&apos;, java.version: &apos;1.8.0_05&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c58ad0b5-24bc-9f40-bd72-27e74bbbc132
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at common.BasePage.click(BasePage.java:31)
+	at myPages.pageFor_videoTest.click_playerBTN(pageFor_videoTest.java:27)
+	at myTest.mytest.videoTest.video_(videoTest.java:27)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;class name&quot;,&quot;selector&quot;:&quot;player-btn&quot;}
+Command duration or timeout: 24 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;zhoulindeMacBook-Air.local&apos;, ip: &apos;192.168.31.205&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.2&apos;, java.version: &apos;1.8.0_05&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c58ad0b5-24bc-9f40-bd72-27e74bbbc132
+*** Element info: {Using=class name, value=player-btn}
+	at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:477)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 34 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;class name&quot;,&quot;selector&quot;:&quot;player-btn&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;zhoulindeMacBook-Air.local&apos;, ip: &apos;192.168.31.205&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.2&apos;, java.version: &apos;1.8.0_05&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/_g/vhkvmngn49x1ldjb3n83l5xr0000gp/T/anonymous1050537979654257676webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/_g/vhkvmngn49x1ldjb3n83l5xr0000gp/T/anonymous1050537979654257676webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/_g/vhkvmngn49x1ldjb3n83l5xr0000gp/T/anonymous1050537979654257676webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/_g/vhkvmngn49x1ldjb3n83l5xr0000gp/T/anonymous1050537979654257676webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/_g/vhkvmngn49x1ldjb3n83l5xr0000gp/T/anonymous1050537979654257676webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+</failure>
+  </testcase>
+  <testcase classname="myTest.mytest.videoTest" name="video_2" time="23.138"/>
+  <testcase classname="myTest.mytest.mysqlTest" name="getDataFromMysql" time="0.39">
+    <failure message="expected [PS提高班班] but found [null]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PS提高班班] but found [null]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at myTest.mytest.mysqlTest.getDataFromMysql(mysqlTest.java:12)
+</failure>
+    <system-out>数据库连接失败！
+执行查询语句失败
+</system-out>
+    <system-err>com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:590)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:57)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:1606)
+	at com.mysql.cj.jdbc.ConnectionImpl.&lt;init&gt;(ConnectionImpl.java:633)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:347)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:219)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at common.mysql_conn.&lt;init&gt;(mysql_conn.java:26)
+	at myTest.mytest.mysqlTest.getDataFromMysql(mysqlTest.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)
+Caused by: com.mysql.cj.core.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:54)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:93)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:133)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:149)
+	at com.mysql.cj.mysqla.io.MysqlaSocketConnection.connect(MysqlaSocketConnection.java:83)
+	at com.mysql.cj.mysqla.MysqlaSession.connect(MysqlaSession.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:1726)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:1596)
+	... 38 more
+Caused by: java.net.UnknownHostException: **: unknown error
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:907)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1302)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1255)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1171)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1105)
+	at com.mysql.cj.core.io.StandardSocketFactory.connect(StandardSocketFactory.java:179)
+	at com.mysql.cj.mysqla.io.MysqlaSocketConnection.connect(MysqlaSocketConnection.java:57)
+	... 41 more
+java.lang.NullPointerException
+	at common.mysql_conn.getData(mysql_conn.java:39)
+	at myTest.mytest.mysqlTest.getDataFromMysql(mysqlTest.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)
+</system-err>
+  </testcase>
+  <testcase classname="myTest.mytest.learntestNG" name="m1" time="0.001"/>
+  <testcase classname="myTest.mytest.learntestNG" name="p1" time="0.001"/>
+  <testcase classname="myTest.mytest.learntestNG" name="p1" time="0"/>
+  <testcase classname="myTest.mytest.learntestNG" name="m2" time="0.004"/>
+  <testcase classname="myTest.mytest.learntestNG" name="f" time="0"/>
 </testsuite>
