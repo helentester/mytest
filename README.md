@@ -1,2 +1,2 @@
 # mytest
-java+selenium+maven+testNG+reportNG（未完善）
+只用于新技术学习
